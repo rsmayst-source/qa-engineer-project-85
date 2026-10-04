@@ -3,6 +3,7 @@
 [![hexlet-check](https://github.com/rsmayst-source/qa-engineer-project-85/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/rsmayst-source/qa-engineer-project-85/actions)
 
 Учебный проект Хекслета: https://ru.hexlet.io/programs/qa-engineer
+
 Как это должно работать: https://codebattle.hexlet.io/
 
 ## Содержание файлов:
