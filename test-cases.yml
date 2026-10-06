@@ -55,7 +55,7 @@
   test-data: |
     Сайт = https://codebattle.hexlet.io/, вид тестирования = "Web Testing" - "Live", исследуемые браузеры = Edge 154, IE 11, Firefox 157, Chrome 157, Opera 136, Safari 5.1 на устройстве с Windows 10 и Firefox 157, Chrome 154, Opera 136, Edge 154, Safari 26.4 на устройстве Mac с Tahoe 
   steps:
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
@@ -112,7 +112,7 @@
   test-data: |
     Страница проекта 
   steps:
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
@@ -139,7 +139,7 @@
     - Перейти на сайт https://codebattle.hexlet.io/
     - Нажать “Sign in”
     - Ввести тестовый адрес электронной почты и Password
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
@@ -169,7 +169,7 @@
     - Перейти на сайт https://codebattle.hexlet.io/
     - Нажать “Sign in”
     - Ввести тестовый адрес электронной почты и Password
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
@@ -200,7 +200,7 @@
     - Перейти на сайт https://codebattle.hexlet.io/
     - Нажать “Sign in”
     - Ввести тестовый адрес электронной почты и Password
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
@@ -222,7 +222,7 @@
   test-data: |
     Страница проекта 
   steps:
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
@@ -254,7 +254,7 @@
     - Перейти на сайт https://codebattle.hexlet.io/
     - Нажать “Sign in”
     - Ввести тестовый адрес электронной почты и Password
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
@@ -276,7 +276,7 @@
   test-data: |
     Страница проекта
   steps:
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
@@ -300,7 +300,7 @@
   test-data: |
     Страница проекта
     steps:
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
@@ -329,7 +329,7 @@
     - Перейти на сайт https://codebattle.hexlet.io/
     - Нажать “Sign in”
     - Ввести тестовый адрес электронной почты и Password
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
@@ -362,7 +362,7 @@
     - Перейти на сайт https://codebattle.hexlet.io/
     - Нажать “Sign in”
     - Ввести тестовый адрес электронной почты и Password
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
@@ -396,7 +396,7 @@
     - Перейти на сайт https://codebattle.hexlet.io/
     - Нажать “Sign in”
     - Ввести тестовый адрес электронной почты и Password
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
@@ -418,7 +418,7 @@
   test-data: |
     Страница проекта
     steps:
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
@@ -468,7 +468,7 @@
   test-data: |
     Страница проекта
   steps:
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
@@ -494,7 +494,7 @@
     - Перейти на сайт https://codebattle.hexlet.io/
     - Нажать “Sign in”
     - Ввести тестовый адрес электронной почты и Password
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
@@ -516,7 +516,7 @@
   test-data: |
     Страница проекта 
   steps:
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
   expected-result: |
     В открывшемся меню доступен выбор уровня сложности (от 1 до 4 звезд)
     
@@ -539,7 +539,7 @@
     - Перейти на сайт https://codebattle.hexlet.io/
     - Нажать “Sign in”
     - Ввести тестовый адрес электронной почты и Password
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
@@ -573,7 +573,7 @@
     - Перейти на сайт https://codebattle.hexlet.io/
     - Нажать “Sign in”
     - Ввести тестовый адрес электронной почты и Password
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - Установить лимит времени в 1 минуту на игру
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
@@ -607,7 +607,7 @@
     - Перейти на сайт https://codebattle.hexlet.io/
     - Нажать “Sign in”
     - Ввести тестовый адрес электронной почты и Password
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - Установить лимит времени в 1 минуту на игру
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
@@ -633,7 +633,7 @@
   test-data: |
     Страница проекта 
   steps:
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
@@ -649,7 +649,7 @@
   test-data: |
     Страница проекта 
   steps:
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - Установить лимит времени в 1 минуту на игру
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
@@ -681,7 +681,7 @@
   test-data: |
     Страница проекта 
   steps:
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
@@ -699,7 +699,7 @@
   test-data: |
     Страница проекта 
   steps:
-    - Щелкнуть по ‘Create a battle”
+    - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - Установить лимит времени в 1 минуту на игру
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
