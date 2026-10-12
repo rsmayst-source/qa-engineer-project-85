@@ -7,7 +7,7 @@
     Открыта страница проекта
   test-data:|
     Страница проекта
-  steps:
+  steps:|
     - Щелкнуть по адресной строке, просмотреть вид протокола передачи данных
     - Открыть "DevTools"
     - Перейти на вкладку "Security"
@@ -22,7 +22,7 @@
     На мобильном устройстве открыт браузер
   test-data:|
     Сайт = https://codebattle.hexlet.io/
-  steps:
+  steps:|
     - Перейти по ссылке https://codebattle.hexlet.io/
   expected-result:|
     Должна открыться мобильная версия сайта, дизайн и содержание оптимизированы под просмотр с мобильных устройств
@@ -134,7 +134,7 @@
     Открыта страница проекта
   test-data:|
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
-  steps:
+  steps:|
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
@@ -156,7 +156,7 @@
     Открыта страница проекта
   test-data:|
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
-  steps:
+  steps:|
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
@@ -179,7 +179,7 @@
     Открыта страница проекта
   test-data:|
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
-  steps:
+  steps:|
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
@@ -203,7 +203,7 @@
     Открыта страница проекта
   test-data:|
     Страница проекта 
-  steps:
+  steps:|
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
@@ -225,7 +225,7 @@
     Открыта страница проекта
   test-data:|
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
-  steps:
+  steps:|
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
@@ -249,7 +249,7 @@
     Открыта страница проекта
   test-data:|
     Страница проекта
-  steps:
+  steps:|
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
@@ -273,7 +273,7 @@
     Открыта страница проекта
   test-data:|
     Страница проекта
-  steps:
+  steps:|
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
@@ -293,7 +293,7 @@
     Открыта страница проекта
   test-data:|
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
-  steps:
+  steps:|
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
@@ -318,7 +318,7 @@
     Открыта страница проекта
   test-data:|
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
-  steps:
+  steps:|
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
@@ -345,7 +345,7 @@
     Открыта страница проекта
   test-data:|
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
-  steps:
+  steps:|
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
@@ -373,7 +373,7 @@
     Открыта страница проекта
   test-data:|
     Страница проекта
-  steps:
+  steps:|
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
@@ -397,7 +397,7 @@
     Открыта страница проекта
   test-data:|
     Страница проекта
-  steps:
+  steps:|
     - На странице проекта нажать “View Hall of Fame”
   expected-result:|
     Отображается список пользователей с указанием их рейтинга по сезонам/турнирам
@@ -410,7 +410,7 @@
     Открыта страница проекта
   test-data:|
     Страница проекта
-  steps:
+  steps:|
     - На странице проекта нажать “View Hall of Fame”
   expected-result:|
     Отображается список пользователей с указанием их рейтинга по сезонам/турнирам, существует возможность фильтрации пользователей исходя из их рейтинга за неделю, месяц и все время
@@ -423,7 +423,7 @@
     Открыта страница проекта
   test-data:|
     Страница проекта
-  steps:
+  steps:|
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
@@ -439,7 +439,7 @@
     Открыта страница проекта
   test-data:|
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
-  steps:
+  steps:|
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
@@ -463,7 +463,7 @@
     Открыта страница проекта
   test-data:|
     Страница проекта 
-  steps:
+  steps:|
     - Щелкнуть по "Create a battle”
   expected-result:|
     В открывшемся меню доступен выбор уровня сложности (от 1 до 4 звезд)
@@ -476,7 +476,7 @@
     Открыта страница проекта
   test-data:|
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
-  steps:
+  steps:|
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
@@ -502,7 +502,7 @@
     Открыта страница проекта
   test-data:|
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
-  steps:
+  steps:|
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
@@ -528,7 +528,7 @@
     Открыта страница проекта
   test-data:|
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
-  steps:
+  steps:|
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
@@ -556,7 +556,7 @@
     Открыта страница проекта
   test-data:|
     Страница проекта 
-  steps:
+  steps:|
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
@@ -572,7 +572,7 @@
     Открыта страница проекта
   test-data:|
     Страница проекта 
-  steps:
+  steps:|
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - Установить лимит времени в 1 минуту на игру
@@ -590,7 +590,7 @@
     Открыта страница проекта
   test-data:|
     Страница проекта 
-  steps:
+  steps:|
     - Убедиться, что пользователь не авторизован на сайте
     - В нижней части главной страницы сайта щелкнуть по “Try simple battle” 
   expected-result:|
@@ -604,7 +604,7 @@
     Открыта страница проекта
   test-data:|
     Страница проекта 
-  steps:
+  steps:|
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
@@ -622,7 +622,7 @@
     Открыта страница проекта
   test-data:|
     Страница проекта 
-  steps:
+  steps:|
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - Установить лимит времени в 1 минуту на игру
