@@ -29,13 +29,13 @@
 
 - summary: | 
     Проверка корректности работы сайта на различных устройствах
-  requirement: |
+  requirement |
     Сайт должен быть доступен на различных устройствах
-  prerequisites: |
+  prerequisites |
     Открыта страница проекта, открыт "DevTools"
-  test-data: |
+  test-data |
     Страница проекта, в "Toggle device toolbar" включен режим эмуляции экранов с разрешением экрана 360 × 800 px, 375 × 812 px, 390 × 844 px, 414 × 896 px, 768 × 1024 px, 800 × 1280 px, 1920 × 1080 px, 1366 × 768 px, 1440 × 900 px, 2560 × 1440 px 
-  steps:
+  steps
     - Щелкнуть по “Create a battle”
     - В настройках игры выбрать “With a bot”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
@@ -43,18 +43,18 @@
     - В меню выбора языка программирования выбрать “Python 3.14.5”
     - В поле с решением в строку 4 ввести текст “ans = age*365”
     - Нажать “Run”
-  expected-result: |
+  expected-result |
     На всех проверенных моделях мобильных устройств и типовых разрешениях экранов сайт проекта отображается корректно
     
-- summary: | 
+- summary | 
     Проверка корректности работы сайта в последних версиях разных браузеров
-  requirement: |
+  requirement |
     Сайт должен быть протестирован на совместимость с последними версиями браузеров.
-  prerequisites: |
-    Открыт сайт https://www.browserstack.com/
-  test-data: |
-    Сайт = https://codebattle.hexlet.io/, вид тестирования = "Web Testing" - "Live", исследуемые браузеры = Edge 154, IE 11, Firefox 157, Chrome 157, Opera 136, Safari 5.1 на устройстве с Windows 10 и Firefox 157, Chrome 154, Opera 136, Edge 154, Safari 26.4 на устройстве Mac с Tahoe 
-  steps:
+  prerequisites |
+    Открыт сайт https//www.browserstack.com/
+  test-data |
+    Сайт = https//codebattle.hexlet.io/, вид тестирования = "Web Testing" - "Live", исследуемые браузеры = Edge 154, IE 11, Firefox 157, Chrome 157, Opera 136, Safari 5.1 на устройстве с Windows 10 и Firefox 157, Chrome 154, Opera 136, Edge 154, Safari 26.4 на устройстве Mac с Tahoe 
+  steps
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
@@ -62,78 +62,78 @@
     - В меню выбора языка программирования выбрать “Python 3.14.5”
     - В поле с решением в строку 4 ввести текст “ans = age*365”
     - Нажать “Run”
-  expected-result: |
+  expected-result |
     Во всех протестированных браузерах сайт отобразился корректно  
 
-- summary: | 
+- summary | 
     Проверка оптимизации работы сайта при низкой скорости интернет-соединения
-  requirement: |
+  requirement |
     Сайт должен быть разработан с учетом удобства использования и оптимизирован для скорости работы
-  prerequisites: |
+  prerequisites |
     Открыта страница проекта
-  test-data: |
+  test-data |
     Страница проекта
-  steps:
+  steps
     - Открыть "DevTools"
     - Перейти на вкладку "Network"
     - Установить скорость соединения "3G"
     - Перезагрузить страницу
-  expected-result: |
+  expected-result |
     Загрузка сайта должна осуществиться поэтапно - сначала должна загрузиться общая структура сайта, потом должны загрузиться кнопки, отвечающие за общую функциональность сайта (создание игры), второстепенные элементы (чат, рейтинг, информация о пользователях на сайте) должны загружаться в последнюю очередь. При долгом отклике от сервера пользователю должно отображаться сообщение, в явном виде указывающее на необходимость дождаться загрузки сайта. 
   
-- summary: | 
+- summary | 
     Проверка наличия на сайте системы авторизации пользователей
-  requirement: |
+  requirement |
     На сайте должна быть система авторизации пользователя.
-  prerequisites: |
+  prerequisites |
     Открыта страница проекта
-  test-data: |
+  test-data |
     Email = miohubs@mokook.com, Password = testpassword1
-  steps:
+  steps
     - Нажать на “Sign up”
     - Ввести тестовые данные в поля Email, Password
-  expected-result: |
+  expected-result |
     Пользователь авторизован на сайте
     
-- summary: | 
+- summary | 
     Проверка невозможности авторизации на сайте незарегистрированного пользователя
-  requirement: |
+  requirement |
     На сайте должна быть система авторизации пользователя.
-  prerequisites: |
+  prerequisites |
     Открыта страница проекта
-  test-data: |
+  test-data |
     Email = fakeemail@test.com, Password = fakepassword1
-  steps:
+  steps
     - Нажать на “Sign in”
     - Ввести тестовые данные в поля Email, Password
-  expected-result: |
+  expected-result |
     Пользователь не авторизован на сайте, выводится сообщение об ошибке "Invalid email or password" 
 
-- summary: | 
+- summary | 
     Проверка возможности переключения языка программирования в игре 
-  requirement: |
+  requirement |
     Должна быть обеспечена возможность выбора языка программирования в игре 
-  prerequisites: |
+  prerequisites |
     Открыта страница проекта
-  test-data: |
+  test-data |
     Страница проекта 
-  steps:
+  steps
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With a bot”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
     - В меню выбора языка программирования выбрать “Python 3.14.5”
-  expected-result: |
+  expected-result |
     В поле с решением отобразился текст, начинающийся со строки “from typing import List, Dict”
     
-- summary: | 
+- summary | 
     Проверка отображения созданной игры в списке доступных для подключения  
-  requirement: |
+  requirement |
     При создании игры пользователем игра отображается в списке доступных для подключения.
   prerequisites: |
     Открыта страница проекта
   test-data: |
-    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
+    Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
@@ -155,7 +155,7 @@
   prerequisites: |
     Открыта страница проекта
   test-data: |
-    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
+    Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
@@ -178,7 +178,7 @@
   prerequisites: |
     Открыта страница проекта
   test-data: |
-    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
+    Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
@@ -224,7 +224,7 @@
   prerequisites: |
     Открыта страница проекта
   test-data: |
-    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
+    Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
@@ -292,7 +292,7 @@
   prerequisites: |
     Открыта страница проекта
   test-data: |
-    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
+    Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
@@ -317,7 +317,7 @@
   prerequisites: |
     Открыта страница проекта
   test-data: |
-    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
+    Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
@@ -344,7 +344,7 @@
   prerequisites: |
     Открыта страница проекта
   test-data: |
-    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
+    Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
@@ -438,7 +438,7 @@
   prerequisites: |
     Открыта страница проекта
   test-data: |
-    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
+    Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
@@ -475,7 +475,7 @@
   prerequisites: |
     Открыта страница проекта
   test-data: |
-    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
+    Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
@@ -501,7 +501,7 @@
   prerequisites: |
     Открыта страница проекта
   test-data: |
-    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
+    Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
@@ -527,7 +527,7 @@
   prerequisites: |
     Открыта страница проекта
   test-data: |
-    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
+    Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
     - Нажать на “Sign up”
     - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
