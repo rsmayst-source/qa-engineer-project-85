@@ -33,7 +33,7 @@
     Сайт должен быть доступен на различных устройствах
   prerequisites:|
     Открыта страница проекта, открыт "DevTools"
-  test-data |
+  test-data: |
     Страница проекта, в "Toggle device toolbar" включен режим эмуляции экранов с разрешением экрана 360 × 800 px, 375 × 812 px, 390 × 844 px, 414 × 896 px, 768 × 1024 px, 800 × 1280 px, 1920 × 1080 px, 1366 × 768 px, 1440 × 900 px, 2560 × 1440 px 
   steps
     - Щелкнуть по “Create a battle”
@@ -52,7 +52,7 @@
     Сайт должен быть протестирован на совместимость с последними версиями браузеров.
   prerequisites:|
     Открыт сайт https//www.browserstack.com/
-  test-data |
+  test-data: |
     Сайт = https//codebattle.hexlet.io/, вид тестирования = "Web Testing" - "Live", исследуемые браузеры = Edge 154, IE 11, Firefox 157, Chrome 157, Opera 136, Safari 5.1 на устройстве с Windows 10 и Firefox 157, Chrome 154, Opera 136, Edge 154, Safari 26.4 на устройстве Mac с Tahoe 
   steps
     - Щелкнуть по "Create a battle”
@@ -71,7 +71,7 @@
     Сайт должен быть разработан с учетом удобства использования и оптимизирован для скорости работы
   prerequisites:|
     Открыта страница проекта
-  test-data |
+  test-data: |
     Страница проекта
   steps
     - Открыть "DevTools"
@@ -87,7 +87,7 @@
     На сайте должна быть система авторизации пользователя.
   prerequisites:|
     Открыта страница проекта
-  test-data |
+  test-data: |
     Email = miohubs@mokook.com, Password = testpassword1
   steps
     - Нажать на “Sign up”
@@ -101,7 +101,7 @@
     На сайте должна быть система авторизации пользователя.
   prerequisites:|
     Открыта страница проекта
-  test-data |
+  test-data: |
     Email = fakeemail@test.com, Password = fakepassword1
   steps
     - Нажать на “Sign in”
@@ -115,7 +115,7 @@
     Должна быть обеспечена возможность выбора языка программирования в игре 
   prerequisites:|
     Открыта страница проекта
-  test-data |
+  test-data: |
     Страница проекта 
   steps
     - Щелкнуть по "Create a battle”
