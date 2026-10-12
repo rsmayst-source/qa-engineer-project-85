@@ -106,7 +106,7 @@
   steps: 
     - Нажать на “Sign in”
     - Ввести тестовые данные в поля Email, Password
-    expected-result: |
+  expected-result: |
     Пользователь не авторизован на сайте, выводится сообщение об ошибке "Invalid email or password" 
 
 - summary: | 
