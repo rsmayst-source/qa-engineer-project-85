@@ -86,20 +86,12 @@
   requirement: |
     На сайте должна быть система авторизации пользователя.
   prerequisites: |
-    Открыт сайт https://tmailor.com/ru/
+    Открыта страница проекта
   test-data: |
-    Тестовый Email, тестовый Nickname, тестовый Password, тестовый Password Confirmation
+    Email = miohubs@mokook.com, Password = testpassword1
   steps:
-    - Скопировать адрес электронной почты с сайта https://tmailor.com/ru/
-    - Зайти на сайт https://codebattle.hexlet.io/
     - Нажать на “Sign up”
-    - Ввести тестовые данные в поля Nickname, Password, Email, Password Confirmation
-    - Вернуться на сайт https://tmailor.com/ru/
-    - В окне с полученными письмами открыть письмо с запросом подтверждения email
-    - Перейти по ссылке из письма
-    - Перейти на сайт https://codebattle.hexlet.io/
-    - Нажать “Sign in”
-    - Ввести тестовый адрес электронной почты и Password
+    - Ввести тестовые данные в поля Email, Password
   expected-result: |
     Пользователь авторизован на сайте
     
@@ -141,28 +133,20 @@
   prerequisites: |
     Открыта страница проекта
   test-data: |
-        Тестовый Email (два), тестовый Nickname (два), тестовый Password (два), тестовый Password Confirmation (два)
+    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
-    - Скопировать адрес электронной почты с сайта https://tmailor.com/ru/
-    - Зайти на сайт https://codebattle.hexlet.io/
     - Нажать на “Sign up”
-    - Ввести тестовые данные в поля Nickname, Password, Email, Password Confirmation
-    - Вернуться на сайт https://tmailor.com/ru/
-    - В окне с полученными письмами открыть письмо с запросом подтверждения email
-    - Перейти по ссылке из письма
-    - Перейти на сайт https://codebattle.hexlet.io/
-    - Нажать “Sign in”
-    - Ввести тестовый адрес электронной почты и Password
+    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
-    - В другом браузере открыть страницу проекта и сайт https://tmailor.com/ru/
-    - Создать второй тестовый аккаунт
-    - Авторизоваться под вторым тестовым аккаунтом на странице проекта
+    - В другом браузере открыть страницу проекта
+    - Нажать на “Sign up”
+    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
     - Нажать на “Join a battle”
   expected-result: |
-    В списке игр, к которым можно присоединиться отображается игры, созданная первым тестовым аккаунтом
+    В списке игр, к которым можно присоединиться, отображается игра, созданная первым тестовым аккаунтом
 
 - summary: | 
     Проверка возможности присоединения к ранее созданной другим пользователем игре путем ее выбора из списка доступных игр
