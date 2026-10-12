@@ -136,14 +136,14 @@
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:|
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
+    - Ввести тестовые данные - Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
     - В другом браузере открыть страницу проекта
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
+    - Ввести тестовые данные - Email = ngivuel@index-mail.com, Password = testpassword2 
     - Нажать на “Join a battle”
   expected-result:|
     В списке игр, к которым можно присоединиться, отображается игра, созданная первым тестовым аккаунтом
@@ -158,14 +158,14 @@
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:|
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
+    - Ввести тестовые данные - Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
     - В другом браузере открыть страницу проекта
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
+    - Ввести тестовые данные - Email = ngivuel@index-mail.com, Password = testpassword2 
     - Нажать на “Join a battle”
     - В списке игр выбрать игру, ранее созданную под первым тестовым аккаунтом
   expected-result:|
@@ -181,14 +181,14 @@
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:|
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
+    - Ввести тестовые данные - Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
     - В другом браузере открыть страницу проекта
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
+    - Ввести тестовые данные - Email = ngivuel@index-mail.com, Password = testpassword2 
     - Нажать на “Join a battle”
     - В списке игр выбрать игру, ранее созданную под первым тестовым аккаунтом
     - В окне игры от имени второго тестового аккаунта написать тестовое сообщение
@@ -227,14 +227,14 @@
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:|
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
+    - Ввести тестовые данные - Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
     - В другом браузере открыть страницу проекта
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
+    - Ввести тестовые данные - Email = ngivuel@index-mail.com, Password = testpassword2 
     - Нажать на “Join a battle”
     - В списке игр выбрать игру, ранее созданную под первым тестовым аккаунтом
     - В открывшемся окне игре под первым тестовым аккаунтом ввести случайный текст в поле с решением
@@ -295,14 +295,14 @@
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:|
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
+    - Ввести тестовые данные - Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
     - В другом браузере открыть страницу проекта
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
+    - Ввести тестовые данные - Email = ngivuel@index-mail.com, Password = testpassword2 
     - Нажать на “Join a battle”
     - В списке игр выбрать игру, ранее созданную под первым тестовым аккаунтом
     - В поле с решением в строку 4 под первым тестовым аккаунтом ввести текст “ans = age*365”
@@ -320,14 +320,14 @@
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:|
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
+    - Ввести тестовые данные - Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
     - В другом браузере открыть страницу проекта
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
+    - Ввести тестовые данные - Email = ngivuel@index-mail.com, Password = testpassword2 
     - Нажать на “Join a battle”
     - В списке игр выбрать игру, ранее созданную под первым тестовым аккаунтом
     - В поле с решением в строку 4 под первым тестовым аккаунтом ввести текст “ans = age*365”
@@ -347,14 +347,14 @@
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:|
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
+    - Ввести тестовые данные - Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
     - В другом браузере открыть страницу проекта
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
+    - Ввести тестовые данные - Email = ngivuel@index-mail.com, Password = testpassword2 
     - Нажать на “Join a battle”
     - В списке игр выбрать игру, ранее созданную под первым тестовым аккаунтом
     - Под вторым тестовым аккаунтом в поле с решением в строку 4 ввести текст “ans = age*365”
@@ -441,7 +441,7 @@
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:|
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
+    - Ввести тестовые данные - Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
@@ -449,7 +449,7 @@
     - Скопировать ссылку в открывшемся окне
     - В другом браузере открыть страницу проекта
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
+    - Ввести тестовые данные - Email = ngivuel@index-mail.com, Password = testpassword2 
     - В адресную строку браузера вставить скопированную ссылку
     - Щелкнуть по кнопке “Join”
   expected-result:|
@@ -478,7 +478,7 @@
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:|
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
+    - Ввести тестовые данные - Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
@@ -486,7 +486,7 @@
     - Скопировать ссылку в открывшемся окне
     - В другом браузере открыть страницу проекта
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
+    - Ввести тестовые данные - Email = ngivuel@index-mail.com, Password = testpassword2 
     - В адресную строку браузера вставить скопированную ссылку
     - Щелкнуть по кнопке “Join”
     - В браузере, в котором авторизован второй тестовый пользователь, в окно с решением ввести случайный текст
@@ -504,7 +504,7 @@
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:|
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
+    - Ввести тестовые данные - Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - Установить лимит времени в 1 минуту на игру
@@ -513,7 +513,7 @@
     - Скопировать ссылку в открывшемся окне
     - В другом браузере открыть страницу проекта
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
+    - Ввести тестовые данные - Email = ngivuel@index-mail.com, Password = testpassword2 
     - В адресную строку браузера вставить скопированную ссылку
     - Щелкнуть по кнопке “Join”
     - Подождать истечения минуты, установленной в качестве лимита времени на игру 
@@ -530,7 +530,7 @@
     Первый тестовый пользователь - Email = miohubs@mokook.com, Password = testpassword1, Второй тестовый пользователь - Email = ngivuel@index-mail.com, Password = testpassword2
   steps:|
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
+    - Ввести тестовые данные - Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - Установить лимит времени в 1 минуту на игру
@@ -539,7 +539,7 @@
     - Скопировать ссылку в открывшемся окне
     - В другом браузере открыть страницу проекта
     - Нажать на “Sign up”
-    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
+    - Ввести тестовые данные - Email = ngivuel@index-mail.com, Password = testpassword2 
     - В адресную строку браузера вставить скопированную ссылку
     - Щелкнуть по кнопке “Join”
     - В поле с решением в строку 4 ввести текст “ans = age*365”
