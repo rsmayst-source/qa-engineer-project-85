@@ -52,7 +52,7 @@
     Сайт должен быть протестирован на совместимость с последними версиями браузеров.
   prerequisites:|
     Открыт сайт https//www.browserstack.com/
-  test-data: |
+  test-data:|
     Сайт = https//codebattle.hexlet.io/, вид тестирования = "Web Testing" - "Live", исследуемые браузеры = Edge 154, IE 11, Firefox 157, Chrome 157, Opera 136, Safari 5.1 на устройстве с Windows 10 и Firefox 157, Chrome 154, Opera 136, Edge 154, Safari 26.4 на устройстве Mac с Tahoe 
   steps
     - Щелкнуть по "Create a battle”
