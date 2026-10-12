@@ -155,25 +155,17 @@
   prerequisites: |
     Открыта страница проекта
   test-data: |
-    Тестовый Email (два), тестовый Nickname (два), тестовый Password (два), тестовый Password Confirmation (два)
+    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
-    - Скопировать адрес электронной почты с сайта https://tmailor.com/ru/
-    - Зайти на сайт https://codebattle.hexlet.io/
     - Нажать на “Sign up”
-    - Ввести тестовые данные в поля Nickname, Password, Email, Password Confirmation
-    - Вернуться на сайт https://tmailor.com/ru/
-    - В окне с полученными письмами открыть письмо с запросом подтверждения email
-    - Перейти по ссылке из письма
-    - Перейти на сайт https://codebattle.hexlet.io/
-    - Нажать “Sign in”
-    - Ввести тестовый адрес электронной почты и Password
+    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
-    - В другом браузере открыть страницу проекта и сайт https://tmailor.com/ru/
-    - Создать второй тестовый аккаунт
-    - Авторизоваться под вторым тестовым аккаунтом на странице проекта
+    - В другом браузере открыть страницу проекта
+    - Нажать на “Sign up”
+    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
     - Нажать на “Join a battle”
     - В списке игр выбрать игру, ранее созданную под первым тестовым аккаунтом
   expected-result: |
@@ -186,25 +178,17 @@
   prerequisites: |
     Открыта страница проекта
   test-data: |
-    Тестовый Email (два), тестовый Nickname (два), тестовый Password (два), тестовый Password Confirmation (два)
+    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
-    - Скопировать адрес электронной почты с сайта https://tmailor.com/ru/
-    - Зайти на сайт https://codebattle.hexlet.io/
     - Нажать на “Sign up”
-    - Ввести тестовые данные в поля Nickname, Password, Email, Password Confirmation
-    - Вернуться на сайт https://tmailor.com/ru/
-    - В окне с полученными письмами открыть письмо с запросом подтверждения email
-    - Перейти по ссылке из письма
-    - Перейти на сайт https://codebattle.hexlet.io/
-    - Нажать “Sign in”
-    - Ввести тестовый адрес электронной почты и Password
+    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
-    - В другом браузере открыть страницу проекта и сайт https://tmailor.com/ru/
-    - Создать второй тестовый аккаунт
-    - Авторизоваться под вторым тестовым аккаунтом на странице проекта
+    - В другом браузере открыть страницу проекта
+    - Нажать на “Sign up”
+    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
     - Нажать на “Join a battle”
     - В списке игр выбрать игру, ранее созданную под первым тестовым аккаунтом
     - В окне игры от имени второго тестового аккаунта написать тестовое сообщение
@@ -240,25 +224,17 @@
   prerequisites: |
     Открыта страница проекта
   test-data: |
-    Тестовый Email (два), тестовый Nickname (два), тестовый Password (два), тестовый Password Confirmation (два)
+    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
-    - Скопировать адрес электронной почты с сайта https://tmailor.com/ru/
-    - Зайти на сайт https://codebattle.hexlet.io/
     - Нажать на “Sign up”
-    - Ввести тестовые данные в поля Nickname, Password, Email, Password Confirmation
-    - Вернуться на сайт https://tmailor.com/ru/
-    - В окне с полученными письмами открыть письмо с запросом подтверждения email
-    - Перейти по ссылке из письма
-    - Перейти на сайт https://codebattle.hexlet.io/
-    - Нажать “Sign in”
-    - Ввести тестовый адрес электронной почты и Password
+    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
-    - В другом браузере открыть страницу проекта и сайт https://tmailor.com/ru/
-    - Создать второй тестовый аккаунт
-    - Авторизоваться под вторым тестовым аккаунтом на странице проекта
+    - В другом браузере открыть страницу проекта
+    - Нажать на “Sign up”
+    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
     - Нажать на “Join a battle”
     - В списке игр выбрать игру, ранее созданную под первым тестовым аккаунтом
     - В открывшемся окне игре под первым тестовым аккаунтом ввести случайный текст в поле с решением
@@ -316,28 +292,20 @@
   prerequisites: |
     Открыта страница проекта
   test-data: |
-    Тестовый Email (два), тестовый Nickname (два), тестовый Password (два), тестовый Password Confirmation (два)
+    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
-    - Скопировать адрес электронной почты с сайта https://tmailor.com/ru/
-    - Зайти на сайт https://codebattle.hexlet.io/
     - Нажать на “Sign up”
-    - Ввести тестовые данные в поля Nickname, Password, Email, Password Confirmation
-    - Вернуться на сайт https://tmailor.com/ru/
-    - В окне с полученными письмами открыть письмо с запросом подтверждения email
-    - Перейти по ссылке из письма
-    - Перейти на сайт https://codebattle.hexlet.io/
-    - Нажать “Sign in”
-    - Ввести тестовый адрес электронной почты и Password
+    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
-    - В другом браузере открыть страницу проекта и сайт https://tmailor.com/ru/
-    - Создать второй тестовый аккаунт
-    - Авторизоваться под вторым тестовым аккаунтом на странице проекта
+    - В другом браузере открыть страницу проекта
+    - Нажать на “Sign up”
+    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
     - Нажать на “Join a battle”
     - В списке игр выбрать игру, ранее созданную под первым тестовым аккаунтом
-    -  В поле с решением в строку 4 ввести текст “ans = age*365”
+    - В поле с решением в строку 4 под первым тестовым аккаунтом ввести текст “ans = age*365”
     - Нажать “Run”
   expected-result: |
     После победы в игре первый тестовый аккаунт остается в игре, принудительный выход из игры не происходит.
@@ -349,33 +317,25 @@
   prerequisites: |
     Открыта страница проекта
   test-data: |
-    Тестовый Email (два), тестовый Nickname (два), тестовый Password (два), тестовый Password Confirmation (два)
+    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
-    - Скопировать адрес электронной почты с сайта https://tmailor.com/ru/
-    - Зайти на сайт https://codebattle.hexlet.io/
     - Нажать на “Sign up”
-    - Ввести тестовые данные в поля Nickname, Password, Email, Password Confirmation
-    - Вернуться на сайт https://tmailor.com/ru/
-    - В окне с полученными письмами открыть письмо с запросом подтверждения email
-    - Перейти по ссылке из письма
-    - Перейти на сайт https://codebattle.hexlet.io/
-    - Нажать “Sign in”
-    - Ввести тестовый адрес электронной почты и Password
+    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
-    - В другом браузере открыть страницу проекта и сайт https://tmailor.com/ru/
-    - Создать второй тестовый аккаунт
-    - Авторизоваться под вторым тестовым аккаунтом на странице проекта
+    - В другом браузере открыть страницу проекта
+    - Нажать на “Sign up”
+    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
     - Нажать на “Join a battle”
     - В списке игр выбрать игру, ранее созданную под первым тестовым аккаунтом
-    - Под вторым тестовым аккаунтом в поле с решением в строку 4 ввести текст “ans = age*365”
+    - В поле с решением в строку 4 под первым тестовым аккаунтом ввести текст “ans = age*365”
     - Нажать “Run”
     - В открывшемся окне нажать "GG"
-    - Под ппервым тестовым аккаунтом набрать в поле с решением случайный текст.
+    - Под вторым тестовым аккаунтом набрать в поле с решением случайный текст.
   expected-result: |
-    На странице проекта, открытой под вторым тестовым аккаунтом, отображается введенный соперником (первым тестовым аккаунтом) код.
+    На странице проекта, открытой под первым тестовым аккаунтом, отображается введенный соперником (вторым тестовым аккаунтом) код.
 
 - summary: | 
     Проверка возможности проверки кода проигравшим игроком
@@ -384,25 +344,17 @@
   prerequisites: |
     Открыта страница проекта
   test-data: |
-    Тестовый Email (два), тестовый Nickname (два), тестовый Password (два), тестовый Password Confirmation (два)
+    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
-    - Скопировать адрес электронной почты с сайта https://tmailor.com/ru/
-    - Зайти на сайт https://codebattle.hexlet.io/
     - Нажать на “Sign up”
-    - Ввести тестовые данные в поля Nickname, Password, Email, Password Confirmation
-    - Вернуться на сайт https://tmailor.com/ru/
-    - В окне с полученными письмами открыть письмо с запросом подтверждения email
-    - Перейти по ссылке из письма
-    - Перейти на сайт https://codebattle.hexlet.io/
-    - Нажать “Sign in”
-    - Ввести тестовый адрес электронной почты и Password
+    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
-    - В другом браузере открыть страницу проекта и сайт https://tmailor.com/ru/
-    - Создать второй тестовый аккаунт
-    - Авторизоваться под вторым тестовым аккаунтом на странице проекта
+    - В другом браузере открыть страницу проекта
+    - Нажать на “Sign up”
+    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
     - Нажать на “Join a battle”
     - В списке игр выбрать игру, ранее созданную под первым тестовым аккаунтом
     - Под вторым тестовым аккаунтом в поле с решением в строку 4 ввести текст “ans = age*365”
@@ -486,26 +438,18 @@
   prerequisites: |
     Открыта страница проекта
   test-data: |
-    Тестовый Email (два), тестовый Nickname (два), тестовый Password (два), тестовый Password Confirmation (два)
+    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
-    - Скопировать адрес электронной почты с сайта https://tmailor.com/ru/
-    - Зайти на сайт https://codebattle.hexlet.io/
     - Нажать на “Sign up”
-    - Ввести тестовые данные в поля Nickname, Password, Email, Password Confirmation
-    - Вернуться на сайт https://tmailor.com/ru/
-    - В окне с полученными письмами открыть письмо с запросом подтверждения email
-    - Перейти по ссылке из письма
-    - Перейти на сайт https://codebattle.hexlet.io/
-    - Нажать “Sign in”
-    - Ввести тестовый адрес электронной почты и Password
+    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
     - Скопировать ссылку в открывшемся окне
-    - В другом браузере открыть страницу проекта и сайт https://tmailor.com/ru/
-    - Создать второй тестовый аккаунт
-    - Авторизоваться под вторым тестовым аккаунтом на странице проекта
+    - В другом браузере открыть страницу проекта
+    - Нажать на “Sign up”
+    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
     - В адресную строку браузера вставить скопированную ссылку
     - Щелкнуть по кнопке “Join”
   expected-result: |
@@ -531,26 +475,18 @@
   prerequisites: |
     Открыта страница проекта
   test-data: |
-    Тестовый Email (два), тестовый Nickname (два), тестовый Password (два), тестовый Password Confirmation (два)
+    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
-    - Скопировать адрес электронной почты с сайта https://tmailor.com/ru/
-    - Зайти на сайт https://codebattle.hexlet.io/
     - Нажать на “Sign up”
-    - Ввести тестовые данные в поля Nickname, Password, Email, Password Confirmation
-    - Вернуться на сайт https://tmailor.com/ru/
-    - В окне с полученными письмами открыть письмо с запросом подтверждения email
-    - Перейти по ссылке из письма
-    - Перейти на сайт https://codebattle.hexlet.io/
-    - Нажать “Sign in”
-    - Ввести тестовый адрес электронной почты и Password
+    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
     - Щелкнуть по "Create battle"
     - Скопировать ссылку в открывшемся окне
-    - В другом браузере открыть страницу проекта и сайт https://tmailor.com/ru/
-    - Создать второй тестовый аккаунт
-    - Авторизоваться под вторым тестовым аккаунтом на странице проекта
+    - В другом браузере открыть страницу проекта
+    - Нажать на “Sign up”
+    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
     - В адресную строку браузера вставить скопированную ссылку
     - Щелкнуть по кнопке “Join”
     - В браузере, в котором авторизован второй тестовый пользователь, в окно с решением ввести случайный текст
@@ -565,27 +501,19 @@
   prerequisites: |
     Открыта страница проекта
   test-data: |
-    Тестовый Email (два), тестовый Nickname (два), тестовый Password (два), тестовый Password Confirmation (два)
+    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
-    - Скопировать адрес электронной почты с сайта https://tmailor.com/ru/
-    - Зайти на сайт https://codebattle.hexlet.io/
     - Нажать на “Sign up”
-    - Ввести тестовые данные в поля Nickname, Password, Email, Password Confirmation
-    - Вернуться на сайт https://tmailor.com/ru/
-    - В окне с полученными письмами открыть письмо с запросом подтверждения email
-    - Перейти по ссылке из письма
-    - Перейти на сайт https://codebattle.hexlet.io/
-    - Нажать “Sign in”
-    - Ввести тестовый адрес электронной почты и Password
+    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - Установить лимит времени в 1 минуту на игру
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
-    - Щелкнуть по "Create battle"
+    - Щелкнуть по "Create battle"  
     - Скопировать ссылку в открывшемся окне
-    - В другом браузере открыть страницу проекта и сайт https://tmailor.com/ru/
-    - Создать второй тестовый аккаунт
-    - Авторизоваться под вторым тестовым аккаунтом на странице проекта
+    - В другом браузере открыть страницу проекта
+    - Нажать на “Sign up”
+    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
     - В адресную строку браузера вставить скопированную ссылку
     - Щелкнуть по кнопке “Join”
     - Подождать истечения минуты, установленной в качестве лимита времени на игру 
@@ -599,27 +527,19 @@
   prerequisites: |
     Открыта страница проекта
   test-data: |
-    Тестовый Email (два), тестовый Nickname (два), тестовый Password (два), тестовый Password Confirmation (два)
+    Первый тестовый пользователь: Email = miohubs@mokook.com, Password = testpassword1, второй тестовый пользователь: Email = ngivuel@index-mail.com, Password = testpassword2
   steps:
-    - Скопировать адрес электронной почты с сайта https://tmailor.com/ru/
-    - Зайти на сайт https://codebattle.hexlet.io/
     - Нажать на “Sign up”
-    - Ввести тестовые данные в поля Nickname, Password, Email, Password Confirmation
-    - Вернуться на сайт https://tmailor.com/ru/
-    - В окне с полученными письмами открыть письмо с запросом подтверждения email
-    - Перейти по ссылке из письма
-    - Перейти на сайт https://codebattle.hexlet.io/
-    - Нажать “Sign in”
-    - Ввести тестовый адрес электронной почты и Password
+    - Ввести тестовые данные: Email = miohubs@mokook.com, Password = testpassword1
     - Щелкнуть по "Create a battle”
     - В настройках игры выбрать “With other user”
     - Установить лимит времени в 1 минуту на игру
     - В меню “Choose task by name or tags” ввести значение “age_to_days”, выбрать единственный найденный вариант игры
-    - Щелкнуть по "Create battle"
+    - Щелкнуть по "Create battle"  
     - Скопировать ссылку в открывшемся окне
-    - В другом браузере открыть страницу проекта и сайт https://tmailor.com/ru/
-    - Создать второй тестовый аккаунт
-    - Авторизоваться под вторым тестовым аккаунтом на странице проекта
+    - В другом браузере открыть страницу проекта
+    - Нажать на “Sign up”
+    - Ввести тестовые данные: Email = ngivuel@index-mail.com, Password = testpassword2 
     - В адресную строку браузера вставить скопированную ссылку
     - Щелкнуть по кнопке “Join”
     - В поле с решением в строку 4 ввести текст “ans = age*365”
